@@ -1,0 +1,14 @@
+input,
+textarea,
+select{
+    background: transparent;
+}
+
+select{
+    padding-top: 0.8px;
+}
+
+.card-bg{
+    background: transparent;
+    border-color: white;
+}

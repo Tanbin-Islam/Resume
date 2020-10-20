@@ -1,0 +1,424 @@
+
+  
+  <div class="container p-3 px-lg-5">
+    <article
+      class="resume-wrapper mx-auto theme-bg-light p-5 mb-5 my-5 shadow-lg"
+    >
+      <div class="resume-header">
+        <div class="row align-items-center">
+          <div class="resume-title col-12 col-md-6 col-lg-8 col-xl-9">
+            <h4 class="resume-name mb-0 text-uppercase">Tanbin Islam</h4>
+            <div class="resume-tagline mb-3 mb-md-0">
+              Assistant Software Engineer
+            </div>
+          </div>
+          <!--//resume-title-->
+          <div class="resume-contact col-12 col-md-6 col-lg-4 col-xl-3">
+            <ul class="list-unstyled mb-0">
+              <li class="mb-2">
+                <i class="fas fa-phone-square fa-fw fa-lg mr-2"></i
+                ><a class="resume-link" href="javascript:void(0)">
+                  <span *ngFor="let data of resumeData">
+                    {{data.ContactMobileNo}}
+                  </span>
+                </a>
+              </li>
+              <li class="mb-2">
+                <i class="fas fa-envelope-square fa-fw fa-lg mr-2"></i
+                ><a class="resume-link" href="mailto:#"
+                  >                  
+                  <span *ngFor="let data of resumeData">
+                    {{data.FirstEmail}}
+                  </span></a
+                >
+              </li>
+              <li class="mb-2">
+                <i class="fas fa-globe fa-fw fa-lg mr-2"></i
+                ><a class="resume-link" href="javascript:void(0)">www.tanbinislam.com</a>
+              </li>
+              <li class="mb-0">
+                <i class="fas fa-map-marker-alt fa-fw fa-lg mr-2"></i><span>Dhaka, Bangladesh</span>
+              </li>
+            </ul>
+          </div>
+          <!--//resume-contact-->
+        </div>
+        <!--//row-->
+      </div>
+      <!--//resume-header-->
+      <hr />
+      <div class="resume-intro py-3">
+        <div class="media flex-column flex-md-row align-items-center">
+          <img
+            class="resume-profile-image mb-3 mb-md-0 mr-md-5 ml-md-0 rounded mx-auto"
+            src="assets/images/tanbin1.jpg"
+            alt="image"
+          />
+          <div class="media-body text-left">
+            <p class="mb-0">
+              To secure a career in a local or multinational organization to expand my
+learnings, knowledge, and skills. Secure a responsible career opportunity to fully utilize my training and
+skills, to achieve organizational goals. 
+ Experienced in developing web applications based on .NET framework (ASP.NET MVC and ASP.NET CORE).
+ Familiar with developing web application using JavaScript frameworks (Angular) with REST.
+ Passionate about giving best design and coding practices.
+ Good in managing time and organizing tasks.
+ Career oriented, hardworking and ability to handle multiple tasks.
+ Quick learner and ability to learn new concepts.
+            </p>
+          </div>
+          <!--//media-body-->
+        </div>
+      </div>
+      <!--//resume-intro-->
+      <hr />
+      <div class="resume-body">
+        <div class="row">
+          <div class="resume-main col-12 col-lg-8 col-xl-9 pr-0 pr-lg-5">
+            <section class="work-section py-3">
+              <h3 class="text-uppercase resume-section-heading mb-4">
+                Work Experiences
+              </h3>
+              <div class="item mb-3" *ngFor = "let data of Careers">
+                <div class="item-heading row align-items-center mb-2">
+                  <h4
+                    class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0"
+                  >
+                    {{data.Designation}} | {{data.Department}}
+                  </h4>
+                  <div
+                    class="item-meta col-12 col-md-6 col-lg-4 text-muted text-left text-md-right"
+                  >
+                    {{data.CompanyName}} | 2019 - Present
+                  </div>
+                </div>
+                <div class="item-content">
+                  <p>
+                    Role description goes here ipsum dolor sit amet,
+                    consectetuer adipiscing elit. Aenean commodo ligula eget
+                    dolor. Aenean massa. Cum sociis natoque penatibus et
+                    magnis dis parturient montes, nascetur ridiculus mus.
+                    Donec quam felis, ultricies nec, pellentesque eu,
+                    pretium quis, sem. Donec pede justo, fringilla vel.
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing
+                    elit. Aenean commodo ligula eget dolor. Aenean massa.
+                    Cum sociis natoque penatibus et magnis dis parturient
+                    montes, nascetur ridiculus mus. Donec quam felis.
+                  </p>
+                  <ul class="resume-list">
+                    <li>Lorem ipsum dolor sit amet, consectetuer.</li>
+                    <li>Aenean commodo ligula eget dolor.</li>
+                    <li>Etiam ultricies nisi vel augue.</li>
+                  </ul>
+                </div>
+              </div>
+            </section>
+            <!--//work-section-->
+
+            <section class="project-section py-3">
+              <h3 class="text-uppercase resume-section-heading mb-4">
+                Projects
+              </h3>
+              <div class="item mb-3">
+                <div class="item-heading row align-items-center mb-2">
+                  <h4
+                    class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0"
+                  >
+                    Libary Management System
+                  </h4>
+                  <div
+                    class="item-meta col-12 col-md-6 col-lg-4 text-muted text-left text-md-right"
+                  >
+                   C#, ADO.NET, MVC
+                  </div>
+                </div>
+                <div class="item-content">
+                  <p>
+                    You can use this section for your side projects. You can
+                    <a href="#" class="theme-link"
+                      >provide a project link here</a
+                    >
+                    as well. Lorem ipsum dolor sit amet, consectetuer
+                    adipiscing elit. Aenean commodo ligula eget dolor.
+                    Aenean massa. Cum sociis natoque penatibus et magnis dis
+                    parturient montes, nascetur ridiculus mus.
+                  </p>
+                </div>
+              </div>
+              <!--//item-->
+              <div class="item">
+                <div class="item-heading row align-items-center mb-2">
+                  <h4
+                    class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0"
+                  >
+                    Employee Management system
+                  </h4>
+                  <div
+                    class="item-meta col-12 col-md-6 col-lg-4 text-muted text-left text-md-right"
+                  >
+                  ASP.NET CORE API, Angular
+                  </div>
+                </div>
+                <div class="item-content">
+                  <p>
+                    You can use this section for your side projects. Cras
+                    dapibus. Vivamus elementum semper nisi. Aenean vulputate
+                    eleifend tellus. Aenean leo ligula, porttitor eu,
+                    consequat vitae, eleifend ac, enim.
+                  </p>
+                </div>
+              </div>
+              <!--//item-->
+              <div class="item">
+                <div class="item-heading row align-items-center mb-2">
+                  <h4
+                    class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0"
+                  >
+                  Chat Applications
+                  </h4>
+                  <div
+                    class="item-meta col-12 col-md-6 col-lg-4 text-muted text-left text-md-right"
+                  >
+                    JavaScript, Socket.io
+                  </div>
+                </div>
+                <div class="item-content">
+                  <p>
+                    You can use this section for your side projects. Cras
+                    dapibus. Vivamus elementum semper nisi. Aenean vulputate
+                    eleifend tellus. Aenean leo ligula, porttitor eu,
+                    consequat vitae, eleifend ac, enim.
+                  </p>
+                </div>
+              </div>
+              <!--//item-->
+              <!--//item-->
+              <div class="item">
+                <div class="item-heading row align-items-center mb-2">
+                  <h4
+                    class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0"
+                  >
+                    Foods Papa
+                  </h4>
+                  <div
+                    class="item-meta col-12 col-md-6 col-lg-4 text-muted text-left text-md-right"
+                  >
+                    Open Source
+                  </div>
+                </div>
+                <div class="item-content">
+                  <p>
+                    You can use this section for your side projects. Cras
+                    dapibus. Vivamus elementum semper nisi. Aenean vulputate
+                    eleifend tellus. Aenean leo ligula, porttitor eu,
+                    consequat vitae, eleifend ac, enim.
+                  </p>
+                </div>
+              </div>
+              <!--//item-->
+            </section>
+            <!--//project-section-->
+          </div>
+          <!--//resume-main-->
+          <aside
+            class="resume-aside col-12 col-lg-4 col-xl-3 px-lg-4 pb-lg-4"
+          >
+            <section class="education-section py-3">
+              <h3 class="text-uppercase resume-section-heading mb-4">
+                Education
+              </h3>
+              <ul class="list-unstyled resume-education-list" *ngFor="let data of Educations">
+                <li class="mb-3">
+                  <div class="resume-degree font-weight-bold">
+                    {{data.ExamName}} in {{data.MajorSubject}}
+                  </div>
+
+                   <div class="resume-degree-org text-muted">
+                    {{data.InstituteName}}
+                   </div>
+                  <div class="resume-degree-time text-muted">
+                    Year of Completion: {{data.YearOfPassing}}
+                  </div>
+                </li>
+              </ul>
+            </section>
+            <!--//education-section-->
+
+            <section class="skills-section py-3">
+              <h3 class="text-uppercase resume-section-heading mb-4">
+                Skills
+              </h3>
+              <div class="item">
+                <h4 class="item-title">Trainings</h4>
+                <ul class="list-unstyled resume-skills-list" *ngFor = "let data of Trainings">
+                  <li class="mb-3">
+                    <span class="font-weight-bold">Institute Name:</span> {{data.Institute}}
+                  </li>
+                  <li class="mb-3">
+                    <span class="font-weight-bold">Location Name:</span> {{data.Location}}
+                  </li>
+                  <li class="mb-3">
+                    <span class="font-weight-bold">TopicsCoverd :</span> {{data.TopicsCoverd}}
+                  </li>
+                  <li class="mb-3">
+                    <span class="font-weight-bold">TrainingTitle:</span> {{data.TrainingTitle}}
+                  </li>
+                  <li class="mb-3">
+                    <span class="font-weight-bold">Country Name:</span> {{data.Country}}
+                  </li>
+                  <li class="mb-3">
+                    <span class="font-weight-bold">TrainingYear :</span> {{data.TrainingYear}}
+                  </li>
+                  <li class="mb-3">
+                    <span class="font-weight-bold">Duration:</span> {{data.Duration}}
+                  </li>
+                </ul>
+              </div>
+
+              <div class="item">
+                <h4 class="item-title">Technical</h4>
+                <ul class="list-unstyled resume-skills-list">
+                  <li class="mb-2">JavaScript/Angular/React/Vue</li>
+                  <li class="mb-2">Python/Ruby/PHP</li>
+                  <li></li>
+                  <li class="mb-2">Node.js/ASP.NET</li>
+                  <li class="mb-2">PostgreSQL/MySQL</li>
+                  <li class="mb-2">Object-oriented design</li>
+                  <li class="mb-2">
+                    Design and implement database structures
+                  </li>
+                  <li>Lead and deliver complex software systems</li>
+                </ul>
+              </div>
+              <!--//item-->
+            </section>
+            <!--//skills-section-->
+            <section class="education-section py-3">
+              <h3 class="text-uppercase resume-section-heading mb-4">
+                Personal Info
+              </h3>
+              <ul class="list-unstyled resume-awards-list" *ngFor="let data of Parsonal">
+                <li class="mb-3">
+                  <span class="font-weight-bold">First Name:</span> {{data.FirstName}}
+                </li>
+                <li class="mb-3">
+                  <span class="font-weight-bold">Last Name:</span> {{data.LastName}}
+                </li>
+                <li class="mb-3">
+                  <span class="font-weight-bold">Marital Status:</span> {{data.MaritalStatus}}
+                </li>
+                <li class="mb-3">
+                  <span class="font-weight-bold">Permanent Address:</span> {{data.PermanentAddress}}
+                </li>
+                <li class="mb-3">
+                  <span class="font-weight-bold">Present Address:</span> {{data.PresentAddress}}
+                </li>
+                <li class="mb-3">
+                  <span class="font-weight-bold">Gender:</span> {{data.Gender}}
+                </li>
+                <li class="mb-3">
+                  <span class="font-weight-bold">DOB:</span> {{data.DateOfBirth}}
+                </li>
+                <li class="mb-3">
+                  <span class="font-weight-bold">Father Name:</span> {{data.FatherName}}
+                </li>
+                <li class="mb-3">
+                  <span class="font-weight-bold">Mother Name:</span> {{data.MotherName}}
+                </li>
+              </ul>
+            </section>
+            <!--//education-section-->
+            <section class="skills-section py-3">
+              <h3 class="text-uppercase resume-section-heading mb-4">
+                Languages
+              </h3>
+              <ul class="list-unstyled resume-lang-list">
+                <li class="mb-2">
+                  English <span class="text-muted">(Native)</span>
+                </li>
+                <li>
+                  Spanish <span class="text-muted">(Professional)</span>
+                </li>
+              </ul>
+            </section>
+            <!--//certificates-section-->
+            <section class="skills-section py-3">
+              <h3 class="text-uppercase resume-section-heading mb-4">
+                Referees
+              </h3>
+              <ul class="list-unstyled resume-interests-list mb-0" *ngFor="let data of Referees">
+                <li class="mb-3">
+                  <span class="font-weight-bold">Name:</span> {{data.Name}}
+                </li>
+                <li class="mb-3">
+                  <span class="font-weight-bold">Organization:</span> {{data.Organization}}
+                </li>
+                <li class="mb-3">
+                  <span class="font-weight-bold">Designation:</span> {{data.Designation}}
+                </li>
+                <li class="mb-3">
+                  <span class="font-weight-bold">Address:</span> {{data.Address}}
+                </li>
+                <li class="mb-3">
+                  <span class="font-weight-bold">Email:</span> {{data.Email}}
+                </li>
+                <li class="mb-3">
+                  <span class="font-weight-bold">Relation:</span> {{data.Relation}}
+                </li>
+                <li class="mb-3">
+                  <span class="font-weight-bold">Mobile:</span> {{data.Mobile}}
+                </li>
+              
+
+              </ul>
+            </section>
+            <!--//certificates-section-->
+          </aside>
+          <!--//resume-aside-->
+        </div>
+        <!--//row-->
+      </div>
+      <!--//resume-body-->
+      <hr />
+      <div class="resume-footer text-center">
+        <ul
+          class="resume-social-list list-inline mx-auto mb-0 d-inline-block text-muted"
+        >
+          <li class="list-inline-item mb-lg-0 mr-3">
+            <a class="resume-link" href="#"
+              ><i
+                class="fab fa-github-square fa-2x mr-2"
+                data-fa-transform="down-4"
+              ></i
+              ><span class="d-none d-lg-inline-block text-muted"
+                >github.com/username</span
+              ></a
+            >
+          </li>
+          <li class="list-inline-item mb-lg-0 mr-3">
+            <a class="resume-link" href="#"
+              ><i
+                class="fab fa-linkedin fa-2x mr-2"
+                data-fa-transform="down-4"
+              ></i
+              ><span class="d-none d-lg-inline-block text-muted"
+                >linkedin.com/in/username</span
+              ></a
+            >
+          </li>
+          <li class="list-inline-item mb-lg-0 mr-lg-3">
+            <a class="resume-link" href="#"
+              ><i
+                class="fab fa-twitter-square fa-2x mr-2"
+                data-fa-transform="down-4"
+              ></i
+              ><span class="d-none d-lg-inline-block text-muted"
+                >@twittername</span
+              ></a
+            >
+          </li>
+        </ul>
+      </div>
+      <!--//resume-footer-->
+    </article>
+  </div>

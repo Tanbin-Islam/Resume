@@ -1,0 +1,14 @@
+F:\Tanbin(C#)\AngularApi\AngularApiResume\AngularApiResume\bin\Debug\netcoreapp2.2\AngularApiResume.deps.json
+F:\Tanbin(C#)\AngularApi\AngularApiResume\AngularApiResume\bin\Debug\netcoreapp2.2\AngularApiResume.runtimeconfig.json
+F:\Tanbin(C#)\AngularApi\AngularApiResume\AngularApiResume\bin\Debug\netcoreapp2.2\AngularApiResume.runtimeconfig.dev.json
+F:\Tanbin(C#)\AngularApi\AngularApiResume\AngularApiResume\bin\Debug\netcoreapp2.2\AngularApiResume.dll
+F:\Tanbin(C#)\AngularApi\AngularApiResume\AngularApiResume\obj\Debug\netcoreapp2.2\AngularApiResume.csprojAssemblyReference.cache
+F:\Tanbin(C#)\AngularApi\AngularApiResume\AngularApiResume\obj\Debug\netcoreapp2.2\AngularApiResume.csproj.CoreCompileInputs.cache
+F:\Tanbin(C#)\AngularApi\AngularApiResume\AngularApiResume\obj\Debug\netcoreapp2.2\AngularApiResume.RazorAssemblyInfo.cache
+F:\Tanbin(C#)\AngularApi\AngularApiResume\AngularApiResume\obj\Debug\netcoreapp2.2\AngularApiResume.RazorAssemblyInfo.cs
+F:\Tanbin(C#)\AngularApi\AngularApiResume\AngularApiResume\obj\Debug\netcoreapp2.2\AngularApiResume.AssemblyInfoInputs.cache
+F:\Tanbin(C#)\AngularApi\AngularApiResume\AngularApiResume\obj\Debug\netcoreapp2.2\AngularApiResume.AssemblyInfo.cs
+F:\Tanbin(C#)\AngularApi\AngularApiResume\AngularApiResume\obj\Debug\netcoreapp2.2\AngularApiResume.RazorTargetAssemblyInfo.cache
+F:\Tanbin(C#)\AngularApi\AngularApiResume\AngularApiResume\bin\Debug\netcoreapp2.2\AngularApiResume.pdb
+F:\Tanbin(C#)\AngularApi\AngularApiResume\AngularApiResume\obj\Debug\netcoreapp2.2\AngularApiResume.dll
+F:\Tanbin(C#)\AngularApi\AngularApiResume\AngularApiResume\obj\Debug\netcoreapp2.2\AngularApiResume.pdb

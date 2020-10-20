@@ -1,0 +1,36 @@
+<div class="row my-3">
+    <div class="col-10 mx-auto">
+            <nav>
+                <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                    <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-Candidates" role="tab" aria-controls="nav-home" aria-selected="true">Candidate</a>
+                <a class="nav-item nav-link" id="nav-home-tab" data-toggle="tab" href="#nav-Personal" role="tab" aria-controls="nav-home" aria-selected="true">Personal</a>
+                <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-Education" role="tab" aria-controls="nav-profile" aria-selected="false">Education</a>
+                <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-Experiences" role="tab" aria-controls="nav-contact" aria-selected="false">Experiences</a>
+                <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-Trainings" role="tab" aria-controls="nav-contact" aria-selected="false">Trainings</a>
+                <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-References" role="tab" aria-controls="nav-contact" aria-selected="false">References</a>
+                </div>
+            </nav>
+            <div class="tab-content py-3" id="nav-tabContent">
+                <div class="tab-pane fade show active" id="nav-Candidates" role="tabpanel" aria-labelledby="nav-home-tab">
+                    <app-candidates></app-candidates>
+                </div>
+                <div class="tab-pane fade" id="nav-Personal" role="tabpanel" aria-labelledby="nav-contact-tab">
+                    <app-personal></app-personal>
+                </div>
+                <div class="tab-pane fade" id="nav-Education" role="tabpanel" aria-labelledby="nav-profile-tab">
+                    <app-education></app-education>
+                </div>
+                <div class="tab-pane fade" id="nav-Experiences" role="tabpanel" aria-labelledby="nav-contact-tab">    
+                    <app-experiences></app-experiences>
+                </div>
+                <div class="tab-pane fade" id="nav-Trainings" role="tabpanel" aria-labelledby="nav-contact-tab">
+                    <app-trainings></app-trainings>
+                </div>
+               
+                <div class="tab-pane fade" id="nav-References" role="tabpanel" aria-labelledby="nav-contact-tab">
+                    <app-references></app-references>
+                </div>
+                
+            </div>
+    </div>
+</div>

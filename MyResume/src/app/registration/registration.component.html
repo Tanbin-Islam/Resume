@@ -1,0 +1,79 @@
+<div class="main">
+    <!-- Sign up form -->
+    <section class="signup">
+        <div class="container">
+            <div class="signup-content">
+                <div class="signup-form">
+                    <h2 class="form-title">Sign up</h2>
+                    <form ngNativeValidate
+                    [formGroup]="registerForm" class="register-form" id="register-form" (ngSubmit)="onSubmit()">
+                    <div class="form-group">
+                      <label for="re-pass"><i class="zmdi zmdi-lock-outline"></i></label>
+                      <input type="text" name="fullname" id="re_pass" placeholder="Enter your full name" formControlName="fullname"
+                      [class.is-invalid]="fullname.invalid && fullname.touched"/>
+
+                      <div *ngIf="fullname.invalid && fullname.touched">
+                          <small *ngIf="fullname.errors?.required" class="text-danger"
+                            >Full Name is required</small
+                          >
+                      </div>
+                  </div>    
+                    <div class="form-group">
+                            <label for="name"><i class="zmdi zmdi-account material-icons-name"></i></label>
+                            <input type="text" name="name" id="name" placeholder="Your Name"
+                            name="username"
+                            formControlName="name"
+                            [class.is-invalid]="name.invalid && name.touched"/>
+
+                            <div *ngIf="name.touched && name.invalid">
+                                <small *ngIf="name.errors?.required" class="text-danger"
+                                  >name is required</small
+                                >
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="email"><i class="zmdi zmdi-email"></i></label>
+                            <input type="email" name="email" id="email" placeholder="Email"
+                            name="email"
+                            formControlName="email"
+                            [class.is-invalid]="email.invalid && email.touched"/>
+
+                            <div *ngIf="email.touched && email.invalid">
+                                <small *ngIf="email.errors?.required" class="text-danger"
+                                  >Email is required</small
+                                >
+                                <small *ngIf="email.errors?.pattern" class="text-danger"
+                                  >Enter valid email address.<em> example@email.com</em></small
+                                >
+                              </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="pass"><i class="zmdi zmdi-lock"></i></label>
+                            <input type="password" name="password" id="pass" placeholder="Password"
+                            formControlName="password"
+                            [class.is-invalid]="password.invalid && password.touched"/>
+
+                            <div *ngIf="password.invalid && password.touched">
+                                <small *ngIf="password.errors?.required" class="text-danger"
+                                  >Password is required</small
+                                >
+                            </div>
+                        </div>
+
+                        <div class="form-group form-button">
+                            <button
+                            type="submit"
+                            class="btn btn-primary"
+                          >
+                            Sign Up
+                          </button>
+                        </div>
+                    </form>
+                </div>
+                <div class="signup-image m-0">
+                    <figure><img src="../../assets/images/undraw_happy_feeling_slmw.svg" alt="sing up image"></figure>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
